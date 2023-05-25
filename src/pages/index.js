@@ -11,15 +11,15 @@ const IndexPage = () => {
         <title>Cloud Coffee</title>
         <meta name="description" content="Bringing Coffee to the Cloud" />
       </header>
-      
+
       <main className='main'>
-        
+
 
           <h1 className='title'>
             Welcome to{' '}
             <code className='title_code'>Cloud Coffee</code>
           </h1>
-      
+
 
           <p className='description'>
             Join Our Mailing List!
@@ -38,10 +38,13 @@ const IndexPage = () => {
                 <StaticImage src="../images/ACG_Orange_Logo_Horizontal.png" alt="A Cloud Guru logo" width={119} height={16} />
               </span>
             </a>
+            <div>
+              Release date: June 2023
+            </div>
           </footer>
       </main>
 
-      
+
     </Layout>
   )
 }
