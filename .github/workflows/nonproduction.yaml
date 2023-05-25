@@ -19,10 +19,10 @@ jobs:
           aws-region: us-east-1
       - name: setup node js
         uses: actions/setup-node@v3
-          with:
-            node-version: 14
+        with:
+          node-version: 14
       - name: build the website
-        - run: |
+        run: |
           npm ci
           npm run build
       - name: deploy to s3 bucket
